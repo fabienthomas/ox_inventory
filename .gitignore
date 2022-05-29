@@ -1,2 +1,3 @@
 modules/logs/**/
 .cfg
+config.cfg
