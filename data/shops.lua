@@ -1,3 +1,6 @@
+return {}
+
+--[[
 return {
 	General = {
 		name = 'Shop',
@@ -167,3 +170,4 @@ return {
 		}
 	}
 }
+]]
