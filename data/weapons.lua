@@ -16,10 +16,21 @@ return {
 		},
 
 		['WEAPON_ASSAULTRIFLE'] = {
-			label = 'Assault Rifle',
+			label = 'AKM',
+			description = "On ne présente plus l'AKM, dérivé du célèbre AK-47, increvable !",
 			weight = 3470,
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
+			loot = {
+				tier = 3,
+				rarity = 3,
+				quantity = 1
+			},
+			shop = {
+				sell = 1000,
+				buy = 330,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_ASSAULTRIFLE_MK2'] = {
@@ -50,15 +61,37 @@ return {
 		},
 
 		['WEAPON_BAT'] = {
-			label = 'Bat',
+			label = 'Batte de baseball',
+			description = "Dans ce nouveau monde, ça peut servir à rester en vie.",
 			weight = 1134,
 			durability = 0.1,
+			loot = {
+				tier = 1,
+				rarity = 5,
+				quantity = 1
+			},
+			shop = {
+				sell = 100,
+				buy = 33,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_BATTLEAXE'] = {
-			label = 'Battle Axe',
+			label = 'Hâche de combat',
+			description = "Redoutablement tranchante.",
 			weight = 1200,
 			durability = 0.1,
+			loot = {
+				tier = 4,
+				rarity = 2,
+				quantity = 1
+			},
+			shop = {
+				sell = 300,
+				buy = 100,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_BOTTLE'] = {
@@ -89,9 +122,20 @@ return {
 		},
 
 		['WEAPON_BZGAS'] = {
-			label = 'BZ Gas',
+			label = 'Grenade Lacrymo',
+			description = "A la base destinée à disperser les hippies, cette grenade lacrymo se révèle efficace contre les zombies!",
 			weight = 600,
 			throwable = true,
+			loot = {
+				tier = 2,
+				rarity = 5,
+				quantity = {1,3}
+			},
+			shop = {
+				sell = 100,
+				buy = 33,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_CARBINERIFLE'] = {
@@ -112,7 +156,17 @@ return {
 			label = 'Ceramic Pistol',
 			weight = 700,
 			durability = 0.2,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			loot = {
+				tier = 1,
+				rarity = 7,
+				quantity = 1
+			},
+			shop = {
+				sell = 120,
+				buy = 40,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_COMBATMG'] = {
@@ -158,9 +212,20 @@ return {
 		},
 
 		['WEAPON_CROWBAR'] = {
-			label = 'Crowbar',
+			label = 'Pied-de-biche',
+			description = "Certe, ce n'est pas la meilleure arme de corps-à-corps mais ça peut te sauver le cul.",
 			weight = 2500,
 			durability = 0.1,
+			loot = {
+				tier = 2,
+				rarity = 5,
+				quantity = 1
+			},
+			shop = {
+				sell = 60,
+				buy = 20,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_DAGGER'] = {
@@ -170,10 +235,21 @@ return {
 		},
 
 		['WEAPON_DBSHOTGUN'] = {
-			label = 'Double Barrel Shotgun',
+			label = 'Fusil à double canon',
+			description = "Ne pas se fier à sa taille, ce truc ça fait des gros trous.",
 			weight = 3175,
 			durability = 0.4,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			loot = {
+				tier = 2,
+				rarity = 5,
+				quantity = 1
+			},
+			shop = {
+				sell = 60,
+				buy = 20,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_DOUBLEACTION'] = {
@@ -204,13 +280,34 @@ return {
 			label = 'Flare Gun',
 			weight = 1000,
 			durability = 0.5,
-			ammoname = 'ammo-flare'
+			ammoname = 'ammo-flare',
+			loot = {
+				tier = 1,
+				rarity = 7,
+				quantity = 1
+			},
+			shop = {
+				sell = 90,
+				buy = 30,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_FLASHLIGHT'] = {
-			label = 'Flashlight',
+			label = 'Lampe torche',
+			description = "Pratique pour se déplacer la nuit ou dans les endroits sombres.",
 			weight = 125,
 			durability = 0.1,
+			loot = {
+				tier = 2,
+				rarity = 5,
+				quantity = 1
+			},
+			shop = {
+				sell = 60,
+				buy = 20,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_GOLFCLUB'] = {
@@ -303,10 +400,21 @@ return {
 		},
 
 		['WEAPON_MARKSMANPISTOL'] = {
-			label = 'Marksman Pistol',
+			label = 'Pistolet de précision',
+			description = "Pour des tirs chirurgicaux",
 			weight = 1588,
 			durability = 0.5,
-			ammoname = 'ammo-22'
+			ammoname = 'ammo-22',
+			loot = {
+				tier = 2,
+				rarity = 6,
+				quantity = 1
+			},
+			shop = {
+				sell = 240,
+				buy = 80,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_MARKSMANRIFLE'] = {
@@ -358,10 +466,21 @@ return {
 		},
 
 		['WEAPON_MUSKET'] = {
-			label = 'Musket',
+			label = 'Mousquet',
+			description = "Ne pas se fier à son grand age, ce fusil antique peut encore vous sauver la mise",
 			weight = 4500,
 			durability = 0.5,
-			ammoname = 'ammo-musket'
+			ammoname = 'ammo-musket',
+			loot = {
+				tier = 2,
+				rarity = 3,
+				quantity = 1
+			},
+			shop = {
+				sell = 360,
+				buy = 120,
+				rand = 0.33
+			}
 		},
 
 		['WEAPON_NAVYREVOLVER'] = {
@@ -393,6 +512,16 @@ return {
 			weight = 970,
 			durability = 0.1,
 			ammoname = 'ammo-9',
+			loot = {
+				tier = 1,
+				rarity = 7,
+				quantity = 1
+			},
+			shop = {
+				sell = 180,
+				buy = 60,
+				rand = 0.2
+			}
 		},
 
 		['WEAPON_PISTOL50'] = {
@@ -416,9 +545,20 @@ return {
 		},
 
 		['WEAPON_PROXMINE'] = {
-			label = 'Proximity Mine',
+			label = 'Mine de proximité',
+			description = "Attention, ça peut exploser",
 			weight = 2500,
 			throwable = true,
+			loot = {
+				tier = -1,
+				rarity = -1,
+				quantity = -1
+			},
+			shop = {
+				sell = 300,
+				buy = 100,
+				rand = 0.5
+			}
 		},
 
 		['WEAPON_PUMPSHOTGUN'] = {
@@ -565,12 +705,23 @@ return {
 
 	Components = {
 		['at_flashlight'] = {
-			label = 'Tactical Flashlight',
+			label = 'Lampe tactique',
+			description = "Se monte sur toutes armes modernes équipées d'un rail de montage",
 			weight = 120,
 			type = 'flashlight',
 			client = {
 				component = {`COMPONENT_AT_PI_FLSH`,`COMPONENT_AT_AR_FLSH`, `COMPONENT_AT_PI_FLSH_02`},
 				usetime = 2500
+			},
+			loot = {
+				tier = -1,
+				rarity = -1,
+				quantity = -1
+			},
+			shop = {
+				sell = 60,
+				buy = 20,
+				rand = 0.2
 			}
 		},
 
@@ -989,6 +1140,16 @@ return {
 		['ammo-22'] = {
 			label = '.22 Long Rifle',
 			weight = 3,
+			loot = {
+				tier = 2,
+				rarity = 8,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 3,
+				buy = 1,
+				rand = 0.2
+			}
 		},
 
 		['ammo-38'] = {
@@ -1012,13 +1173,33 @@ return {
 		},
 
 		['ammo-9'] = {
-			label = '9mm',
+			label = 'Balle de 9mm',
 			weight = 8,
+			loot = {
+				tier = 2,
+				rarity = 7,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 3,
+				buy = 1,
+				rand = 0.2
+			}
 		},
 
 		['ammo-flare'] = {
 			label = 'Flare',
 			weight = 38,
+			loot = {
+				tier = 1,
+				rarity = 7,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 3,
+				buy = 1,
+				rand = 0.2
+			}
 		},
 
 		['ammo-heavysniper'] = {
@@ -1029,6 +1210,16 @@ return {
 		['ammo-musket'] = {
 			label = 'Musket ammo',
 			weight = 30,
+			loot = {
+				tier = 1,
+				rarity = 7,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 3,
+				buy = 1,
+				rand = 0.2
+			}
 		},
 
 		['ammo-rifle'] = {
@@ -1039,16 +1230,46 @@ return {
 		['ammo-rifle2'] = {
 			label = '7.62',
 			weight = 8,
+			loot = {
+				tier = 3,
+				rarity = 7,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 9,
+				buy = 3,
+				rand = 0.2
+			}
 		},
 
 		['ammo-shotgun'] = {
 			label = '12 Gauge',
 			weight = 38,
+			loot = {
+				tier = 2,
+				rarity = 4,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 6,
+				buy = 2,
+				rand = 0.2
+			}
 		},
 
 		['ammo-sniper'] = {
 			label = '7.62 NATO',
 			weight = 11,
+			loot = {
+				tier = 4,
+				rarity = 4,
+				quantity = {1,15}
+			},
+			shop = {
+				sell = 12,
+				buy = 4,
+				rand = 0.2
+			}
 		}
 	}
 }

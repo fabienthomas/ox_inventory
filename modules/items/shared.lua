@@ -50,6 +50,8 @@ do
 				v.stack = v.throwable and true or false
 				v.durability = v.durability or 1
 				v.weapon = true
+			elseif type == "Components" then
+				v.stack = false
 			else
 				v.stack = true
 			end
